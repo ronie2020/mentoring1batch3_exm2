@@ -78,7 +78,6 @@ class SearchApp extends StatelessWidget {
                       Center(
                         child: TextFormField(
                           decoration: InputDecoration(fillColor: Colors.red,
-                            border: OutlineInputBorder(),
                             focusedBorder: OutlineInputBorder(
                                 borderSide: BorderSide(color: Colors.red),
                             ),

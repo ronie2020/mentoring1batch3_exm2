@@ -1,3 +1,4 @@
+import 'package:covid_app/covid_confirm.dart';
 import 'package:flutter/material.dart';
 import'package:covid_app/covid_search.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         //visualDensity: VisualDensity.adaptivePlatformDensity,
       //),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SearchApp(),
+      home: ConfirmApp(),
     );
   }
 }
